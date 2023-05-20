@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-cont {
+  background-color: #161625;
+  color: #ffffff;
+  padding: 10px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 90vh;
+  justify-content: center;
+}
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.name {
+  color: #2cc6c6;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.heading {
+  color: #cbd5e1;
+  width: 90%;
+}
+.loader-spanner {
+  align-self: center;
+  margin-top: 40px;
+}
+.inner-card {
+  background-color: #1c1c2b;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  width: 90%;
+}
+.vacci {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #94a3b8;
+}
+.failure-img {
+  align-self: center;
+  width: 70%;
+  margin-top: 30px;
+}
+.failure-note {
+  font-family: 'Bree Serif';
+  align-self: center;
+}
